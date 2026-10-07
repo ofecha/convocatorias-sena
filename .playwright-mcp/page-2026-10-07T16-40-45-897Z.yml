@@ -1,0 +1,30 @@
+- generic [active] [ref=f14e1]:
+  - navigation [ref=f14e2]:
+    - generic [ref=f14e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f14e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f14e5]:
+          - generic [ref=f14e6]: SENA
+          - generic [ref=f14e7]: Escuela Nacional de Instructores
+      - generic [ref=f14e8]:
+        - generic [ref=f14e9]: usuario1
+        - link "Cerrar sesión" [ref=f14e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f14e11]:
+    - generic [ref=f14e15]:
+      - generic [ref=f14e16]:
+        - generic [ref=f14e17]: Acceso institucional
+        - heading "Iniciar sesión" [level=1] [ref=f14e18]
+        - paragraph [ref=f14e19]: Ingresa para gestionar las convocatorias de capacitación.
+      - generic [ref=f14e20]:
+        - generic [ref=f14e21]:
+          - generic [ref=f14e22]: Usuario
+          - textbox "Usuario" [ref=f14e23]
+        - generic [ref=f14e24]:
+          - generic [ref=f14e25]: Contraseña
+          - textbox "Contraseña" [ref=f14e26]
+        - button "Ingresar" [ref=f14e27] [cursor=pointer]
+  - contentinfo [ref=f14e28]:
+    - generic [ref=f14e30]:
+      - generic [ref=f14e31]: Escuela Nacional de Instructores
+      - generic [ref=f14e32]: ENI

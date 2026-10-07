@@ -1,0 +1,96 @@
+- generic [active] [ref=f11e1]:
+  - navigation [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f11e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f11e5]:
+          - generic [ref=f11e6]: SENA
+          - generic [ref=f11e7]: Escuela Nacional de Instructores
+      - generic [ref=f11e8]:
+        - generic [ref=f11e9]: usuario1
+        - link "Cerrar sesión" [ref=f11e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f11e11]:
+    - generic [ref=f11e12]:
+      - generic [ref=f11e13]:
+        - generic [ref=f11e14]:
+          - generic [ref=f11e15]: Panel administrativo
+          - heading "Gestionar convocatorias" [level=1] [ref=f11e16]
+          - paragraph [ref=f11e17]: Consulta y organiza la oferta de capacitaciones.
+        - generic [ref=f11e18]:
+          - generic [ref=f11e19]: 2 resultados
+          - link "Crear convocatoria" [ref=f11e20] [cursor=pointer]:
+            - /url: /convocatorias/crear/
+      - generic [ref=f11e22]:
+        - generic [ref=f11e23]:
+          - generic [ref=f11e24]: Buscar
+          - searchbox "Buscar" [ref=f11e25]
+        - generic [ref=f11e26]:
+          - generic [ref=f11e27]: Área
+          - combobox "Área" [ref=f11e28]:
+            - option "Todas" [selected]
+            - option "Administración"
+            - option "Desarrollo de Software"
+        - generic [ref=f11e29]:
+          - generic [ref=f11e30]: Ciudad
+          - combobox "Ciudad" [ref=f11e31]:
+            - option "Todas" [selected]
+            - option "Manizales"
+            - option "Villavicencio"
+        - generic [ref=f11e32]:
+          - button "Aplicar filtros" [ref=f11e33] [cursor=pointer]
+          - link "Limpiar" [ref=f11e34] [cursor=pointer]:
+            - /url: /convocatorias/
+      - table [ref=f11e37]:
+        - rowgroup [ref=f11e38]:
+          - row [ref=f11e39]:
+            - columnheader "Título" [ref=f11e40]
+            - columnheader "Área" [ref=f11e41]
+            - columnheader "Fechas" [ref=f11e42]
+            - columnheader "Ciudad" [ref=f11e43]
+            - columnheader "Cupos" [ref=f11e44]
+            - columnheader "Estado" [ref=f11e45]
+            - columnheader "Acciones" [ref=f11e46]
+        - rowgroup [ref=f11e47]:
+          - row [ref=f11e48]:
+            - cell "ciclo 2 MBA Gerencia de proyectos" [ref=f11e49]:
+              - strong [ref=f11e50]: ciclo 2 MBA
+              - generic [ref=f11e51]: Gerencia de proyectos
+            - cell "Administración" [ref=f11e52]
+            - cell "28/09/2026 al 02/10/2026" [ref=f11e53]:
+              - generic [ref=f11e54]: 28/09/2026
+              - text: al 02/10/2026
+            - cell "Manizales" [ref=f11e55]
+            - cell "2 / 2" [ref=f11e56]
+            - cell "Publicada" [ref=f11e57]
+            - cell [ref=f11e59]:
+              - generic [ref=f11e60]:
+                - link "Consultar" [ref=f11e61] [cursor=pointer]:
+                  - /url: /convocatorias/10/consulta/
+                - link "Editar" [ref=f11e62] [cursor=pointer]:
+                  - /url: /convocatorias/10/
+                - link "Modificar estado" [ref=f11e63] [cursor=pointer]:
+                  - /url: /convocatorias/10/estado/
+          - row [ref=f11e64]:
+            - cell "Ciclo 3 python Testing y Deployment" [ref=f11e65]:
+              - strong [ref=f11e66]: Ciclo 3 python
+              - generic [ref=f11e67]: Testing y Deployment
+            - cell "Desarrollo de Software" [ref=f11e68]
+            - cell "05/10/2026 al 09/10/2026" [ref=f11e69]:
+              - generic [ref=f11e70]: 05/10/2026
+              - text: al 09/10/2026
+            - cell "Villavicencio" [ref=f11e71]
+            - cell "2 / 30" [ref=f11e72]
+            - cell "Publicada" [ref=f11e73]
+            - cell [ref=f11e75]:
+              - generic [ref=f11e76]:
+                - link "Consultar" [ref=f11e77] [cursor=pointer]:
+                  - /url: /convocatorias/7/consulta/
+                - link "Editar" [ref=f11e78] [cursor=pointer]:
+                  - /url: /convocatorias/7/
+                - link "Modificar estado" [ref=f11e79] [cursor=pointer]:
+                  - /url: /convocatorias/7/estado/
+  - contentinfo [ref=f11e80]:
+    - generic [ref=f11e82]:
+      - generic [ref=f11e83]: Escuela Nacional de Instructores
+      - generic [ref=f11e84]: ENI

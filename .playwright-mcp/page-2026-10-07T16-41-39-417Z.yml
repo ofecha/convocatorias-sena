@@ -1,0 +1,62 @@
+- generic [active] [ref=f18e1]:
+  - navigation [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f18e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f18e5]:
+          - generic [ref=f18e6]: SENA
+          - generic [ref=f18e7]: Escuela Nacional de Instructores
+      - generic [ref=f18e8]:
+        - generic [ref=f18e9]: usuario1
+        - link "Cerrar sesión" [ref=f18e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f18e11]:
+    - generic [ref=f18e12]:
+      - generic [ref=f18e13]:
+        - generic [ref=f18e14]:
+          - generic [ref=f18e15]: Consulta administrativa
+          - heading "Prueba exploratoria Desktop 20261007 1140" [level=1] [ref=f18e16]
+          - paragraph [ref=f18e17]: Estadísticas e instructores inscritos en la convocatoria.
+        - link "Volver al listado" [ref=f18e18] [cursor=pointer]:
+          - /url: /convocatorias/
+      - generic [ref=f18e20]:
+        - generic [ref=f18e21]:
+          - generic [ref=f18e22]: Área
+          - strong [ref=f18e23]: Pruebas de software
+        - generic [ref=f18e24]:
+          - generic [ref=f18e25]: Ciudad
+          - strong [ref=f18e26]: Bogotá
+        - generic [ref=f18e27]:
+          - generic [ref=f18e28]: Fechas
+          - strong [ref=f18e29]: 02/11/2026 al 06/11/2026
+        - generic [ref=f18e30]:
+          - generic [ref=f18e31]: Estado
+          - generic [ref=f18e32]: Borrador
+        - generic [ref=f18e33]:
+          - generic [ref=f18e34]: Descripción
+          - paragraph [ref=f18e35]: Registro de prueba exploratoria en Chromium Desktop.
+      - generic [ref=f18e36]:
+        - generic [ref=f18e38]:
+          - generic [ref=f18e39]: "0"
+          - generic [ref=f18e40]: Instructores inscritos
+        - generic [ref=f18e42]:
+          - generic [ref=f18e43]: 0.0%
+          - generic [ref=f18e44]: Porcentaje de inscripción
+        - generic [ref=f18e46]:
+          - generic [ref=f18e47]: 0 / 12
+          - generic [ref=f18e48]: Cupos asignados
+      - generic [ref=f18e49]:
+        - generic [ref=f18e50]:
+          - heading "Nivel de inscripción" [level=2] [ref=f18e51]
+          - strong [ref=f18e52]: 0.0%
+        - 'img "Porcentaje de inscripción: 0.0%" [ref=f18e53]'
+      - generic [ref=f18e55]:
+        - heading "Instructores inscritos" [level=2] [ref=f18e56]
+        - paragraph [ref=f18e57]: Listado actualizado de inscripciones válidas.
+      - generic [ref=f18e58]:
+        - heading "No hay inscripciones" [level=2] [ref=f18e59]
+        - paragraph [ref=f18e60]: Aún no hay instructores inscritos en esta convocatoria.
+  - contentinfo [ref=f18e61]:
+    - generic [ref=f18e63]:
+      - generic [ref=f18e64]: Escuela Nacional de Instructores
+      - generic [ref=f18e65]: ENI

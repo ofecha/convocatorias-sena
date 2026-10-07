@@ -1,0 +1,77 @@
+- generic [active] [ref=f3e1]:
+  - navigation [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f3e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f3e5]:
+          - generic [ref=f3e6]: SENA
+          - generic [ref=f3e7]: Escuela Nacional de Instructores
+      - generic [ref=f3e8]:
+        - generic [ref=f3e9]: usuario1
+        - link "Cerrar sesión" [ref=f3e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f3e11]:
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - generic [ref=f3e14]:
+          - generic [ref=f3e15]: Panel administrativo
+          - heading "Gestionar convocatorias" [level=1] [ref=f3e16]
+          - paragraph [ref=f3e17]: Consulta y organiza la oferta de capacitaciones.
+        - generic [ref=f3e18]:
+          - generic [ref=f3e19]: 1 resultado
+          - link "Crear convocatoria" [ref=f3e20] [cursor=pointer]:
+            - /url: /convocatorias/crear/
+      - generic [ref=f3e22]:
+        - generic [ref=f3e23]:
+          - generic [ref=f3e24]: Buscar
+          - searchbox "Buscar" [ref=f3e25]: python
+        - generic [ref=f3e26]:
+          - generic [ref=f3e27]: Área
+          - combobox "Área" [ref=f3e28]:
+            - option "Todas"
+            - option "Administración"
+            - option "Desarrollo de Software" [selected]
+        - generic [ref=f3e29]:
+          - generic [ref=f3e30]: Ciudad
+          - combobox "Ciudad" [ref=f3e31]:
+            - option "Todas"
+            - option "Manizales"
+            - option "Villavicencio" [selected]
+        - generic [ref=f3e32]:
+          - button "Aplicar filtros" [ref=f3e33] [cursor=pointer]
+          - link "Limpiar" [ref=f3e34] [cursor=pointer]:
+            - /url: /convocatorias/
+      - table [ref=f3e37]:
+        - rowgroup [ref=f3e38]:
+          - row [ref=f3e39]:
+            - columnheader "Título" [ref=f3e40]
+            - columnheader "Área" [ref=f3e41]
+            - columnheader "Fechas" [ref=f3e42]
+            - columnheader "Ciudad" [ref=f3e43]
+            - columnheader "Cupos" [ref=f3e44]
+            - columnheader "Estado" [ref=f3e45]
+            - columnheader "Acciones" [ref=f3e46]
+        - rowgroup [ref=f3e47]:
+          - row [ref=f3e48]:
+            - cell "Ciclo 3 python Testing y Deployment" [ref=f3e49]:
+              - strong [ref=f3e50]: Ciclo 3 python
+              - generic [ref=f3e51]: Testing y Deployment
+            - cell "Desarrollo de Software" [ref=f3e52]
+            - cell "05/10/2026 al 09/10/2026" [ref=f3e53]:
+              - generic [ref=f3e54]: 05/10/2026
+              - text: al 09/10/2026
+            - cell "Villavicencio" [ref=f3e55]
+            - cell "2 / 30" [ref=f3e56]
+            - cell "Publicada" [ref=f3e57]
+            - cell [ref=f3e59]:
+              - generic [ref=f3e60]:
+                - link "Consultar" [ref=f3e61] [cursor=pointer]:
+                  - /url: /convocatorias/7/consulta/
+                - link "Editar" [ref=f3e62] [cursor=pointer]:
+                  - /url: /convocatorias/7/
+                - link "Modificar estado" [ref=f3e63] [cursor=pointer]:
+                  - /url: /convocatorias/7/estado/
+  - contentinfo [ref=f3e64]:
+    - generic [ref=f3e66]:
+      - generic [ref=f3e67]: Escuela Nacional de Instructores
+      - generic [ref=f3e68]: ENI

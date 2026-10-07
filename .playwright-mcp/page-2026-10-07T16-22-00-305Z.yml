@@ -1,0 +1,86 @@
+- generic [active] [ref=f4e1]:
+  - navigation [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f4e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f4e5]:
+          - generic [ref=f4e6]: SENA
+          - generic [ref=f4e7]: Escuela Nacional de Instructores
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]: usuario1
+        - link "Cerrar sesión" [ref=f4e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f4e11]:
+    - generic [ref=f4e12]:
+      - generic [ref=f4e13]:
+        - generic [ref=f4e14]:
+          - generic [ref=f4e15]: Consulta administrativa
+          - heading "Ciclo 3 python" [level=1] [ref=f4e16]
+          - paragraph [ref=f4e17]: Estadísticas e instructores inscritos en la convocatoria.
+        - link "Volver al listado" [ref=f4e18] [cursor=pointer]:
+          - /url: /convocatorias/
+      - generic [ref=f4e20]:
+        - generic [ref=f4e21]:
+          - generic [ref=f4e22]: Área
+          - strong [ref=f4e23]: Desarrollo de Software
+        - generic [ref=f4e24]:
+          - generic [ref=f4e25]: Ciudad
+          - strong [ref=f4e26]: Villavicencio
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28]: Fechas
+          - strong [ref=f4e29]: 05/10/2026 al 09/10/2026
+        - generic [ref=f4e30]:
+          - generic [ref=f4e31]: Estado
+          - generic [ref=f4e32]: Publicada
+        - generic [ref=f4e33]:
+          - generic [ref=f4e34]: Descripción
+          - paragraph [ref=f4e35]: Testing y Deployment
+      - generic [ref=f4e36]:
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]: "2"
+          - generic [ref=f4e40]: Instructores inscritos
+        - generic [ref=f4e42]:
+          - generic [ref=f4e43]: 6.67%
+          - generic [ref=f4e44]: Porcentaje de inscripción
+        - generic [ref=f4e46]:
+          - generic [ref=f4e47]: 2 / 30
+          - generic [ref=f4e48]: Cupos asignados
+      - generic [ref=f4e49]:
+        - generic [ref=f4e50]:
+          - heading "Nivel de inscripción" [level=2] [ref=f4e51]
+          - strong [ref=f4e52]: 6.67%
+        - 'img "Porcentaje de inscripción: 6.67%" [ref=f4e53]'
+      - generic [ref=f4e56]:
+        - heading "Instructores inscritos" [level=2] [ref=f4e57]
+        - paragraph [ref=f4e58]: Listado actualizado de inscripciones válidas.
+      - table [ref=f4e61]:
+        - rowgroup [ref=f4e62]:
+          - row [ref=f4e63]:
+            - columnheader "Identificación" [ref=f4e64]
+            - columnheader "Nombres" [ref=f4e65]
+            - columnheader "Apellidos" [ref=f4e66]
+            - columnheader "Correo electrónico" [ref=f4e67]
+            - columnheader "Teléfono" [ref=f4e68]
+            - columnheader "Centro de formación" [ref=f4e69]
+            - columnheader "Regional" [ref=f4e70]
+        - rowgroup [ref=f4e71]:
+          - row [ref=f4e72]:
+            - cell "Omar" [ref=f4e73]
+            - cell "F" [ref=f4e74]
+            - cell "Ch" [ref=f4e75]
+            - cell "ochaparrob@sena.edu.co" [ref=f4e76]
+            - cell "314000000" [ref=f4e77]
+            - cell "Cdim" [ref=f4e78]
+            - cell "Santander" [ref=f4e79]
+          - row [ref=f4e80]:
+            - cell "333333" [ref=f4e81]
+            - cell "Carolina" [ref=f4e82]
+            - cell "Diaz" [ref=f4e83]
+            - cell "cd@gmail.com" [ref=f4e84]
+            - cell "300333" [ref=f4e85]
+            - cell "CET" [ref=f4e86]
+            - cell "Distrito" [ref=f4e87]
+  - contentinfo [ref=f4e88]:
+    - generic [ref=f4e90]:
+      - generic [ref=f4e91]: Escuela Nacional de Instructores
+      - generic [ref=f4e92]: ENI

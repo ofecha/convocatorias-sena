@@ -1,0 +1,52 @@
+- generic [active] [ref=f20e1]:
+  - navigation [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - link "SENA Escuela Nacional de Instructores" [ref=f20e4] [cursor=pointer]:
+        - /url: /login/
+        - generic [ref=f20e5]:
+          - generic [ref=f20e6]: SENA
+          - generic [ref=f20e7]: Escuela Nacional de Instructores
+      - generic [ref=f20e8]:
+        - generic [ref=f20e9]: usuario1
+        - link "Cerrar sesión" [ref=f20e10] [cursor=pointer]:
+          - /url: /logout/
+  - main [ref=f20e11]:
+    - generic [ref=f20e14]:
+      - generic [ref=f20e15]:
+        - generic [ref=f20e16]: Panel administrativo
+        - heading "Editar convocatoria" [level=1] [ref=f20e17]
+        - paragraph [ref=f20e18]: Completa todos los datos requeridos para gestionar la capacitación.
+      - generic [ref=f20e20]:
+        - generic [ref=f20e21]:
+          - generic [ref=f20e22]: Título
+          - textbox "Título" [ref=f20e23]: Prueba exploratoria Desktop 20261007 1140
+        - generic [ref=f20e24]:
+          - generic [ref=f20e25]: Área
+          - textbox "Área" [ref=f20e26]: Pruebas de software
+        - generic [ref=f20e27]:
+          - generic [ref=f20e28]: Descripción
+          - textbox "Descripción" [ref=f20e29]: Registro de prueba exploratoria en Chromium Desktop.
+        - generic [ref=f20e30]:
+          - generic [ref=f20e31]: Fecha de inicio
+          - textbox "Fecha de inicio" [ref=f20e32]: 2026-11-02
+        - generic [ref=f20e33]:
+          - generic [ref=f20e34]: Fecha final
+          - textbox "Fecha final" [ref=f20e35]: 2026-11-06
+        - generic [ref=f20e36]:
+          - generic [ref=f20e37]: Ciudad
+          - textbox "Ciudad" [ref=f20e38]: Bogotá
+        - generic [ref=f20e39]:
+          - generic [ref=f20e40]: Cupos totales
+          - spinbutton "Cupos totales" [ref=f20e41]: "12"
+        - generic [ref=f20e43]:
+          - text: "Estado actual:"
+          - strong [ref=f20e44]: Borrador
+          - text: . Usa la opción “Modificar estado” para cambiarlo.
+        - generic [ref=f20e45]:
+          - link "Cancelar" [ref=f20e46] [cursor=pointer]:
+            - /url: /convocatorias/
+          - button "Guardar convocatoria" [ref=f20e47] [cursor=pointer]
+  - contentinfo [ref=f20e48]:
+    - generic [ref=f20e50]:
+      - generic [ref=f20e51]: Escuela Nacional de Instructores
+      - generic [ref=f20e52]: ENI
